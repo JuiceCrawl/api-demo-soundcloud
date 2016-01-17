@@ -1,0 +1,25 @@
+GOOGLE MAPS
+https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=AIzaSyBOnKfCyzPsBNoStmLuQyOeLEj2FcSWNX0
+
+
+SOUNDCLOUD
+http://api.soundcloud.com/users/thefullstack/tracks.json?client_id=93a0f7b43878c14ce18c92c4e84a4468
+
+
+FOURSQUARE
+Client id
+VZZ1EUDOT0JYITGFDKVVMCLYHB3NURAYK3OHB5SK5N453NFD
+
+Client secret
+UAA15MIFIWVKZQRH22KPSYVWREIF2EMMH0GQ0ZKIQZC322NZ
+
+
+https://api.foursquare.com/v2/venues/search?ll=40.7,-74&client_id=VZZ1EUDOT0JYITGFDKVVMCLYHB3NURAYK3OHB5SK5N453NFD&client_secret=UAA15MIFIWVKZQRH22KPSYVWREIF2EMMH0GQ0ZKIQZC322NZ&v=20151215
+
+
+
+TWILIO
+Friendly Name
+demo-key
+Sid SK4553e2cfa63913859852e72e5c007ec8
+Secret EtHQXqmarwDMgSywG7ZXxckUFka6vv4B

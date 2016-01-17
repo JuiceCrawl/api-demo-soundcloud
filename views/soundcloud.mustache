@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="APIDemo">
+  <head>
+    <title>{{ title }}</title>
+  </head>
+
+  <body ng-controller="SoundcloudController" ng-init="init()">
+    <h1>{{ title }}</h1>
+    <p>Welcome to {{ title }}</p>
+
+    <input ng-model="username" placeholder="username" type="text" /><br /><br />
+
+    <button ng-click="fetchSoundcloudTracks()">Get Tracks!</button>
+
+    <ol>
+    	<li ng-repeat="track in tracks"><a href="<% track.stream_url %>?client_id=93a0f7b43878c14ce18c92c4e84a4468"><% track.title %></a></li>
+    </ol>
+
+
+    <script type="text/javascript" src="/min/vendor.js"></script>
+    <script type="text/javascript" src="/min/app.js"></script>
+
+
+  </body>
+
+
+
+</html>
